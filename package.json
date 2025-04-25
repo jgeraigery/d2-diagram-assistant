@@ -1,0 +1,25 @@
+{
+  "name": "d2-diagram-assistant",
+  "version": "1.0.0",
+  "description": "MCP server for retrieving relevant parts of D2 diagram documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "D2",
+    "diagrams",
+    "MCP",
+    "assistant"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.9",
+    "similarity": "^1.2.1"
+  }
+}
